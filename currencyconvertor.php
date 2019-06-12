@@ -38,6 +38,7 @@
 	 <option value="PHP" selected>Philipines Peso(PHP)</option>
 	 <option value="SGD" selected>Singapore Dollar(SGD)</option>
 	 <option value="AED" selected>United Arab Emirates Dirham(AED)</option>
+	 <option value="BHD" selected>Bahrain Dinar(AED)</option>
 	 </select>
 </td>
 </tr>
@@ -50,6 +51,7 @@
 	 <option value="PHP" selected>Philipines Peso(PHP)</option>
 	 <option value="SGD" selected>Singapore Dollar(SGD)</option>
 	 <option value="AED" selected>United Arab Emirates Dirham(AED)</option>
+	 <option value="BHD" selected>Bahrain Dinar(BHD)</option>	
 	
 	</select>
 </td>
@@ -87,6 +89,10 @@ if($cur1=="AUD" AND $cur2=="AED"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount* 2.50 . "</center>";
 }
+if($cur1=="AUD" AND $cur2=="BHD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount* 0.26 . "</center>";
+}
 if($cur1=="EUR" AND $cur2=="AUD"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*1.60  . "</center>";
@@ -106,6 +112,10 @@ echo "<center>" . $amount*1.54  . "</center>";
 if($cur1=="EUR" AND $cur2=="AED"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*4.00  . "</center>";
+}
+if($cur1=="EUR" AND $cur2=="BHD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*0.43 . "</center>";
 }
 if($cur1=="JPY" AND $cur2=="AUD"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
@@ -127,6 +137,10 @@ if($cur1=="JPY" AND $cur2=="AED"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*0.0325  . "</center>";
 }
+if($cur1=="JPY" AND $cur2=="BHD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*0.0035  . "</center>";
+}
 if($cur1=="PHP" AND $cur2=="AUD"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*0.05  . "</center>";
@@ -146,6 +160,10 @@ echo "<center>" . $amount*0.03  . "</center>";
 if($cur1=="PHP" AND $cur2=="AED"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*0.701  . "</center>";
+}
+if($cur1=="PHP" AND $cur2=="BHD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*0.0073  . "</center>";
 }
 if($cur1=="SGD" AND $cur2=="AUD"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
@@ -167,6 +185,10 @@ if($cur1=="SGD" AND $cur2=="AED"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*2.75  . "</center>";
 }
+if($cur1=="SGD" AND $cur2=="BHD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*0.28  . "</center>";
+}
 if($cur1=="AED" AND $cur2=="AUD"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*0.40  . "</center>";
@@ -186,6 +208,34 @@ echo "<center>" . $amount*14.26  . "</center>";
 if($cur1=="AED" AND $cur2=="SGD"){
 echo "<center><b>Your Converted Amount is:</b><br></center>";
 echo "<center>" . $amount*0.38  . "</center>";
+}
+if($cur1=="AED" AND $cur2=="BHD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*0.01  . "</center>";
+}
+if($cur1=="BHD" AND $cur2=="AUD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*3.82  . "</center>";
+}
+if($cur1=="BHD" AND $cur2=="EUR"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*2.34  . "</center>";
+}
+if($cur1=="BHD" AND $cur2=="JPY"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*287.54  . "</center>";
+}
+if($cur1=="BHD" AND $cur2=="PHP"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*137.86  . "</center>";
+}
+if($cur1=="BHD" AND $cur2=="SGD"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*3.62  . "</center>";
+}
+if($cur1=="BHD" AND $cur2=="AED"){
+echo "<center><b>Your Converted Amount is:</b><br></center>";
+echo "<center>" . $amount*9.74  . "</center>";
 }
 }
 ?>
