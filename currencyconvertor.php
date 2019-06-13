@@ -39,7 +39,7 @@
 	 <option value="SGD" selected>Singapore Dollar(SGD)</option>
 	 <option value="AED" selected>United Arab Emirates Dirham(AED)</option>
 	 <option value="BHD" selected>Bahrain Dinar(AED)</option>
-	 <option value="BHD" selected>Swiss Franc(CHF)</option>
+	 <option value="CHF" selected>Swiss Franc(CHF)</option>
 	 </select>
 </td>
 </tr>
@@ -53,7 +53,7 @@
 	 <option value="SGD" selected>Singapore Dollar(SGD)</option>
 	 <option value="AED" selected>United Arab Emirates Dirham(AED)</option>
 	 <option value="BHD" selected>Bahrain Dinar(BHD)</option>	
-	 <option value="BHD" selected>Swiss Franc(CHF)</option>
+	 <option value="CHF" selected>Swiss Franc(CHF)</option>
 	</select>
 </td>
 </tr>
