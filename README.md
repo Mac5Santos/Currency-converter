@@ -15,6 +15,7 @@ Continuously growing the list of currencies. Currently:
 - AED
 - BHD
 - CHF
+- CAD
  
 # Features and How to use
 Simple dropdown selections for the to and from currencies and one input box should do the trick.
